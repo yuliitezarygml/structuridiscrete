@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/yuliitezary/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include",
+                "C:/Users/yuliitezary/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+                "C:/Users/yuliitezary/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "compilerPath": "C:/Users/yuliitezary/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

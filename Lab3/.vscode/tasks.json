@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "C:\\Users\\yuliitezary\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe",
+            "args": [
+                "-static",
+                "main.cpp",
+                "-o",
+                "main.exe"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\Users\\yuliitezary\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
